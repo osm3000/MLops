@@ -1,8 +1,14 @@
+"""
+Implementing basic CI/CD for a AWS lambda function
+"""
+
 import json
 
 def lambda_handler(event, context):
-    # TODO implement
-    print(event)
+    """
+    My first Lambda function within CI/CD
+    """
+    print(context)
     return {
         'statusCode': 200,
         'body': json.dumps('Hello from Lambda!'),
