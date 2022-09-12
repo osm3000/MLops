@@ -3,7 +3,10 @@ Implementing basic CI/CD for a AWS lambda function
 """
 import json
 
-random_dict = {"first": True, "second": False}
+random_dict = {"first": True, 
+
+"second": False}
+
 
 def lambda_handler(event, context):
     """
