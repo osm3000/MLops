@@ -25,4 +25,4 @@ jobs:
 
     - name: Perform formatting
       run: |
-      python -m black $(git ls-files '*.py')
+        python -m black $(git ls-files '*.py')
