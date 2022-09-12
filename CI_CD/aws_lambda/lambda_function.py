@@ -4,7 +4,6 @@ Implementing basic CI/CD for a AWS lambda function
 import json
 
 random_dict = {"first": True, 
-
 "second": False}
 
 
